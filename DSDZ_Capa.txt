@@ -1,0 +1,7 @@
+Projeto: Readbook 
+Detalhe: Leitura de livros técnicos
+Criação: Renan de Lima Andrade
+
+Livro 1: Data Science do Zero (Primeiras regras com o Python)
+Autor: Joel Grus
+Editora: Alta Books / O'Reilly
