@@ -1,0 +1,240 @@
+Projeto: Readbook 
+Detalhe: Leitura de livros técnicos
+Criação: Renan de Lima Andrade
+
+Livro 1: Data Science do Zero (Primeiras regras com o Python)
+Autor: Joel Grus
+Editora: Alta Books / O'Reilly
+
+SUMÁRIO
+
+1.	Introdução
+	1.	A ascensão dos dados
+	1.	O que é data science?
+	2.	Motivação hipotética: DataSciencester
+		3.	Encontrando conectores-chave
+		6.	Cientistas de dados que você talvez conheça
+		8.	Salário e experiência
+		11.	Contas pagas
+		11.	Tópicos de interesse
+		13.	Em diante
+15.	Curso Relampago de Python
+	15.	O básico
+		15.	Iniciando em python
+		16.	Python Zen
+		16.	Formatação de espaço em branco
+		17.	Módulos
+		18.	Aritmética
+		18.	Funções
+		19.	Strings (cadeias de caracteres)
+		19.	Exceções
+		20.	Listas
+		21.	Tuplas
+		21.	Dicionários
+		24.	Conjuntos
+		25.	Controle de Fluxo
+		25.	Veracidade
+	26.	Não tão básico
+		27.	Ordenação
+		27.	Compreensões de lista
+		28.	Geradores e iteradores
+		29.	Aleatoriedade
+		30.	Expressões regulares
+		30.	Programação orientada a objeto
+		31	Ferramentas funcionais
+		32.	Enumeração (enumerate)
+		33.	Descompactação de zip e argumentos
+		34.	args e kwargs
+		35.	Bem-vindos à DataSciencester!
+	35.	Para mais esclarecimentos
+37.	Visualizando Dados	
+	37.	matplotlib
+	39.	Gráficos de barras
+	43.	Gráficos de linhas
+	44.	Gráficos de dispersão
+	47.	Para mais esclarecimentos
+49.	Algebra Linear
+	49.	Vetores 
+	53.	Matrizes
+	55.	Para mais esclarecimentos
+57.	Estatística
+	57.	Descrevendo um conjunto único de dados
+		59.	Tendências centrais
+		61.	Dispersão
+	62.	Correlação
+	65.	Paradoxo de Simpson
+	66.	Alguns outros pontos de atenção sobre correlação
+	67.	Correlação e causalidade
+	68.	Para mais esclarecimentos
+69.	Probabilidade
+	69.	Dependência e independência
+	70.	Probabilidade condicional
+	72.	Teorema de bayes
+	73.	Variáveis aleatórias
+	74.	Distribuições contínuas
+	75.	A distribuição normal
+	78.	O teorema do limite central
+	80.	Para mais esclarecimentos
+81.	Hipótese e Inferência
+	81.	Teste estatístico de hipótese
+	81.	Exemplo: lançar uma moeda
+	84.	p-values
+	85.	Intervalos de confiança
+	86.	P-Hacking
+	87.	Exemplo: executando um teste A/B 
+	88.	Inferência bayesiana
+	92.	Para mais esclarecimentos
+93.	Gradiente Descendente
+	93.	A ideia por trás do gradiente descendente
+	94.	Estimando o gradiente
+	97.	Usando o gradiente
+	97.	Escolhendo o tamanho do próximo passo
+	98.	Juntando tudo
+	99.	Gradiente descendente estocástico
+	100. Para mais esclarecimentos
+103. Obtendo Dados
+	103. stdin e stdout
+	105. Lendo arquivos
+		105. O básico de arquivos texto
+		106. Arquivos delimitados
+	108. Extraindo dados da internet
+		108. HTML e sua subsequente pesquisa
+		110. Exemplo: livros O'Reilly sobre dados
+	114. Usando APIs
+		114. JSON (e XML)
+		115. Usando uma API não autenticada
+		116. Encontrando APIs
+	117. Exemplo: Usando as APIs do Twitter
+		117. Obtendo credenciais
+	120. Para mais esclarecimentos
+121. Trabalhando com dados
+	121. Explorando seus dados
+		121. Explorando dados unidimensionais
+		123. Duas dimensões
+		125. Muitas dimensões
+	127. Limpando e transformando
+	129. Manipulando dados
+	132. Redimensionando
+	134. Redução da dimensionalidade
+	139. Para mais esclarecimentos
+141. Aprendizado de Máquina
+	141. Modelagem
+	142. O que é aprendizado de máquina?
+	142. Sobreajuste e Sub-ajuste
+	145. Precisão
+	147. Compromisso entre polarização e variância
+	148. Recursos extração e seleção de característica
+	150. Para mais esclarecimentos
+151. K-Vizinhos mais próximos
+	151. O modelo
+	153. Exemplo: linguagens favoritas
+	156. A maldição da dimensionalidade
+	163. Para mais esclarecimentos
+165. Naive Bayes
+	165. Um filtro de spam muito estúpido
+	166. Um filtro de spam mais sofisticado
+	168. Implementação
+	169. Testando nosso modelo
+	172. Para mais esclarecimentos
+173. Regressão Linear Simples
+	173. O modelo
+	176. Usando o gradiente descendente
+	177. Estimativa máxima de probabilidade
+	177. Para mais esclarecimentos
+179. Regressão Múltipla
+	179. O modelo
+	180. Mais suposições do modelo dos mínimos quadrados
+	181. Ajustando o modelo
+	182. Interpretando o modelo
+	183. O benefício do ajuste
+	183. Digressão: A inicialização
+	184. Erros padrões de coeficientes de regressão
+	186. Regularização
+	188. Para mais esclarecimentos
+189. Regressão Logística
+	189. O problema
+	192. A função logística
+	194. Aplicando o modelo
+	195. O benefício do ajuste
+	196. Máquina de vetor de suporte
+	200. Para mais esclarecimentos
+201. Árvores de Decisão
+	201. O que é uma Árvore de Decisão?
+	203. Entropia
+	205. A Entropia de uma Partição
+	206. Criando uma Árvore de Decisão
+	208. Juntando tudo
+	211. Florestas Aleatórias
+	212. Para mais esclarecimentos
+213. Redes Neurais
+	213. Perceptrons
+	215. Redes Neurais Feed-Forward
+	218. Backpropagation
+	219. Exemplo: derrotando um CAPTCHA
+	224. Para mais esclarecimentos
+225. Agrupamento
+	225. A ideia
+	226. O modelo
+	227. Exemplo: encontros
+	230. Escolhendo k
+	231. Exemplo: agrupando cores
+	233. Agrupamento hierárquico Bottom-up
+	238. Para mais esclarecimentos
+239. Processamento de Linguagem Natural
+	239. Nuvens de palavras
+	241. Modelos n-gramas
+	244. Gramáticas
+	246. Um adendo: A amostragem de Gibbs 
+	247. Modelagem de tópicos
+	253. Para mais esclarecimentos
+255. Análise de Rede
+	255. Centralidade de intermediação
+	260. Centralidade de vetor próprio
+		260. Multiplicação de matrizes
+		262. Centralidade
+	264. Gráficos direcionados e PageRank
+	266. Para mais esclarecimentos
+267. Sistemas Recomendadores
+	268. Curadoria manual
+	268. Recomendando o que é popular
+	269. Filtragem colaborativa baseada no usuário
+	272. Filtragem colaborativa baseada em itens
+	274. Para mais esclarecimentos
+275. Bases de Dados e SQL
+	275. CREATE TABLE e INSERT
+	277. UPDATE
+	278. DELETE
+	278. SELECT
+	280. GROUP BY
+	282. ORDER BY
+	283. JOIN
+	285. Subconsultas
+	285. Índices
+	286. Otimização de consulta
+	287. NoSQL
+	287. Para mais esclarecimentos
+289. MapReduce
+	289. Exemplo: contagem de palavras
+	291. Por que MapReduce?
+	292. MapReduce mais generalisado
+	293. Exemplo: analisando atualização de status
+	294. Exemplo: multiplicação de matriz
+	296. Um adendo: Combinadores
+	296. Para mais esclarecimentos
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
