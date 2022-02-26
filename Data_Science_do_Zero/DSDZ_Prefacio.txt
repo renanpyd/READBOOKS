@@ -1,0 +1,14 @@
+Prefácio
+
+	Data Science
+	
+		"O emprego mais sexy do século 21"
+			Link 1:	http://bit.ly/1Bqe1WY
+		
+		"Diagrama de VENN"
+			Link 2:	http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagr
+			
+		"Códigos e dados do livro no GitHub"
+			Link 3:	https://github.com/joelgrus/data-science-from-scratch
+			
+	ISBN: 978-85-7608-998-8	
